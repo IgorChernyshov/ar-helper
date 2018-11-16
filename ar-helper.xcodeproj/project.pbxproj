@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CBDE9B6219C360100AC36ED /* ExamineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBDE9B5219C360100AC36ED /* ExamineViewController.swift */; };
 		9CC21D44219ABFF20090D2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC21D43219ABFF20090D2DE /* AppDelegate.swift */; };
 		9CC21D46219ABFF20090D2DE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC21D45219ABFF20090D2DE /* art.scnassets */; };
-		9CC21D48219ABFF20090D2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC21D47219ABFF20090D2DE /* ViewController.swift */; };
+		9CC21D48219ABFF20090D2DE /* MainARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC21D47219ABFF20090D2DE /* MainARViewController.swift */; };
 		9CC21D4B219ABFF20090D2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC21D49219ABFF20090D2DE /* Main.storyboard */; };
 		9CC21D4D219ABFF40090D2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC21D4C219ABFF40090D2DE /* Assets.xcassets */; };
 		9CC21D50219ABFF40090D2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC21D4E219ABFF40090D2DE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CBDE9B5219C360100AC36ED /* ExamineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamineViewController.swift; sourceTree = "<group>"; };
 		9CC21D40219ABFF20090D2DE /* ar-helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar-helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC21D43219ABFF20090D2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC21D45219ABFF20090D2DE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		9CC21D47219ABFF20090D2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CC21D47219ABFF20090D2DE /* MainARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainARViewController.swift; sourceTree = "<group>"; };
 		9CC21D4A219ABFF20090D2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CC21D4C219ABFF40090D2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC21D4F219ABFF40090D2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CBDE9AE219C0D1C00AC36ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CC21D49219ABFF20090D2DE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CBDE9AF219C0D2200AC36ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CC21D47219ABFF20090D2DE /* MainARViewController.swift */,
+				9CBDE9B5219C360100AC36ED /* ExamineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9CC21D37219ABFF20090D2DE = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +75,10 @@
 		9CC21D42219ABFF20090D2DE /* ar-helper */ = {
 			isa = PBXGroup;
 			children = (
+				9CBDE9AF219C0D2200AC36ED /* Controller */,
+				9CBDE9AE219C0D1C00AC36ED /* View */,
 				9CC21D43219ABFF20090D2DE /* AppDelegate.swift */,
 				9CC21D45219ABFF20090D2DE /* art.scnassets */,
-				9CC21D47219ABFF20090D2DE /* ViewController.swift */,
-				9CC21D49219ABFF20090D2DE /* Main.storyboard */,
 				9CC21D4C219ABFF40090D2DE /* Assets.xcassets */,
 				9CC21D4E219ABFF40090D2DE /* LaunchScreen.storyboard */,
 				9CC21D51219ABFF40090D2DE /* Info.plist */,
@@ -139,7 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC21D48219ABFF20090D2DE /* ViewController.swift in Sources */,
+				9CBDE9B6219C360100AC36ED /* ExamineViewController.swift in Sources */,
+				9CC21D48219ABFF20090D2DE /* MainARViewController.swift in Sources */,
 				9CC21D44219ABFF20090D2DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
